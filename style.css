@@ -1,0 +1,45 @@
+body {
+  background-image: url('https://wallpaperaccess.com/full/24245.jpg'); /* default cloud image */
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  color: white;
+}
+
+.weather-container {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  margin: 80px auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ff704d;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3d00;
+}
+
+#weatherResult img {
+  width: 100px;
+}
+
+#weatherResult {
+  margin-top: 20px;
+}
