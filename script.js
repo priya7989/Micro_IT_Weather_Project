@@ -44,8 +44,7 @@ function getWeather() {
         <p><strong>Condition:</strong> ${conditionFormatted}</p>
         <p><strong>Humidity:</strong> ${data.main.humidity}%</p>
         <p><strong>Wind Speed:</strong> ${data.wind.speed} m/s</p>
-        <img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="Weather Icon">
-      `;
+           `;
 
       document.getElementById("weatherResult").innerHTML = weatherInfo;
     })
@@ -72,7 +71,7 @@ function getBackgroundImage(condition) {
     case "mist":
     case "haze":
     case "fog":
-      return "https://images.unsplash.com/photo-1504743364-3f045cddef1f";
+      return "https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/fog--mist/fog-on-a-country-road.jpg";
     default:
       return "https://wallpaperaccess.com/full/24245.jpg";
   }
