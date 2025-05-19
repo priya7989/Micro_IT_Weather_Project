@@ -7,6 +7,47 @@ body {
   transition: background-image 0.5s ease-in-out;
   color: white;
 }
+/* Clear sky */
+body.clear {
+  background-image: url('https://images.unsplash.com/photo-1501973801540-537f08ccae7e');
+}
+
+/* Clouds */
+body.clouds {
+  background-image: url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31');
+}
+
+/* Rain */
+body.rain {
+  background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+}
+
+/* Thunderstorm */
+body.thunderstorm {
+  background-image: url('https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee');
+}
+
+/* Drizzle */
+body.drizzle {
+  background-image: url('https://images.unsplash.com/photo-1518837695005-2083093ee35b');
+}
+
+/* Snow */
+body.snow {
+  background-image: url('https://images.unsplash.com/photo-1544441893-72e8b3f9e8f2');
+}
+
+/* Mist/Haze/Fog */
+body.mist,
+body.haze,
+body.fog {
+  background-image: url('https://images.unsplash.com/photo-1504743364-3f045cddef1f');
+}
+
+/* Fallback/default */
+body.unknown {
+  background-image: url('https://images.unsplash.com/photo-1504743364-3f045cddef1f');
+}
 
 .weather-container {
   text-align: center;
